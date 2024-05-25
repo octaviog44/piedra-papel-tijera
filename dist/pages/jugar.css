@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../imagen/fondo.png);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imagen__tijera,
+.imagen__piedra,
+.imagen__papel {
+    width: 100px;
+    height: auto;
+}
+
+.instrucciones {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.boton__jugar {
+    border: solid 10px #001997;
+    background-color: #006CFC;
+    font-size: 30px;
+    color: white;
+    width: 322px;
+    height: 87px;
+    cursor: pointer;
+}

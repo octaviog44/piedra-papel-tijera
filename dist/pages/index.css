@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imagen/fondo.png);
+    background-size: cover; 
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.contenedor-general{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.opciones{
+    display: flex;
+    flex-direction: row;
+}
+
+my-component{
+    height: 300px;
+    width: 300px;
+    
+}
+
+my-button{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen__tijera{
+    position: absolute;
+    top: 550px;
+    left: 250px;
+}
+
+.imagen__piedra{
+    position: absolute;
+    top: 550px;
+    left: 350px;
+}
+.imagen__papel{
+    position: absolute;
+    top: 550px;
+    left: 450px;
+}
+
+.contenedor-general{
+    display: flex;
+    justify-content: center;
+}

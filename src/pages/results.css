@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#resultado-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.score {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #006CFC;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+.ganaste {
+    background-color: #c8e6c9; /* Green background */
+}
+
+.perdiste {
+    background-color: #ffcdd2; /* Red background */
+}
+
+.empate {
+    background-color: #ffe0b2; /* Orange background */
+}
+
+.ganaste #resultado-text {
+    color: #388e3c; /* Dark green text */
+}
+
+.perdiste #resultado-text {
+    color: #d32f2f; /* Dark red text */
+}
+
+.empate #resultado-text {
+    color: #f57c00; /* Dark orange text */
+}
+
+.ganaste .score p {
+    color: #388e3c;
+}
+
+.perdiste .score p {
+    color: #d32f2f;
+}
+
+.empate .score p {
+    color: #f57c00;
+}
+
+.ganaste button {
+    background-color: #4caf50; /* Green button */
+}
+
+.perdiste button {
+    background-color: #f44336; /* Red button */
+}
+
+.empate button {
+    background-color: #ff9800; /* Orange button */
+}

@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagen/fondo.png);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.opciones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.imagen__tijera,
+.imagen__piedra,
+.imagen__papel {
+    width: 100px;
+    height: auto;
+}
+
+.contenedor-titulo {
+    margin-bottom: 20px;
+}
+
+.contenedor__boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

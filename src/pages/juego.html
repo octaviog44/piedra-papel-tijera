@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="juego.css">
+</head>
+<body>
+   <div class="contenedor-principal">
+       <div class="opciones">
+           <img src="../imagen/tijera.png" alt="tijera" class="imagen imagen__tijera" data-option="tijera" onclick="selectOption(this)">
+           <img src="../imagen/piedra.png" alt="piedra" class="imagen imagen__piedra" data-option="piedra" onclick="selectOption(this)">
+           <img src="../imagen/papel.png" alt="papel" class="imagen imagen__papel" data-option="papel" onclick="selectOption(this)">
+       </div>
+
+       <div class="timer">
+            <div class="circle">
+                <div class="mask full">
+                    <div class="fill"></div>
+                </div>
+                <div class="mask half">
+                    <div class="fill"></div>
+                    <div class="fill fix"></div>
+                </div>
+                <div class="inside-circle">3</div>
+            </div>
+        </div>
+
+        <div class="enfrentamiento" style="display: none;">
+            <div class="hand-container computer-choice"></div>
+            <div class="hand-container player-choice"></div>
+        </div>
+    </div>
+    <script src="juego.js"></script>
+</body>
+</html>
