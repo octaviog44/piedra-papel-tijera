@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piedra Papel y Tijera</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="src/index.css">
 </head>
 <body>
     <div class="contenedor-general">
         <div class="opciones">
-            <img src="imagen/tijera.png" alt="" class="imagen__tijera">
-            <img src="imagen/piedra.png" alt="" class="imagen__piedra">
-            <img src="imagen/papel.png" alt="" class="imagen__papel">
+            <img src="src/imagen/tijera.png" alt="" class="imagen__tijera">
+            <img src="src/imagen/piedra.png" alt="" class="imagen__piedra">
+            <img src="src/imagen/papel.png" alt="" class="imagen__papel">
             <div class="contenedor-titulo">
                 <my-component></my-component>
                 <div class="contenedor__boton">
-                    <my-button data-navigate="../src/pages/jugar.html"></my-button>
+                    <my-button data-navigate="src/pages/jugar.html"></my-button>
                 </div>
             </div>
         </div>
     </div>
-    <script type="module" src="../../dist/components/my-components.js"></script>
-    <script type="module" src="../../dist/components/my-button.js"></script>
-    <script src="router.js"></script>
+    <script type="module" src="dist/components/my-components.js"></script>
+    <script type="module" src="dist/components/my-button.js"></script>
+    <script src="dist/router.js"></script>
 </body>
 </html>
